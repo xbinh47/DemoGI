@@ -432,7 +432,6 @@ Header Style
   min-height: 80px;
   background: transparent;
   display: flex;
-  padding: 15px 0px;
   border-radius: 50px;
 }
 
@@ -476,7 +475,7 @@ Header Style
 }
 
 .header-area .main-nav .logo img {
-  width: 150px;
+  width: 200px;
 }
 
 .background-header .main-nav .logo {
