@@ -94,6 +94,9 @@ figcaption {
   border: 0;
   outline: 0;
 }
+.d-none {
+  display: none !important;
+}
 
 .clearfix:after {
   content: ".";
@@ -223,7 +226,7 @@ p {
   border-radius: 23px;
 }
 
-.main-button a {
+.main-button button {
   font-size: 14px;
   color: #fff;
   background-color: #e75e8d;
@@ -238,7 +241,7 @@ p {
   overflow: hidden;
 }
 
-.main-button a:hover {
+.main-button button:hover {
   background-color: #fff;
   color: #e75e8d;
 }
@@ -1557,7 +1560,7 @@ Top Streamers Style
   float: right;
 }
 
-.top-streamers ul li .main-button a {
+.top-streamers ul li .main-button button {
   padding: 8px 20px;
 }
 
@@ -1722,7 +1725,7 @@ body {
     float: none;
     margin-top: 10px;
   }
-  .top-streamers ul li .main-button a {
+  .top-streamers ul li .main-button button {
     width: 100%;
     text-align: center;
   }
